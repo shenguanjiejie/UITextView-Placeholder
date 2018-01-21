@@ -23,6 +23,8 @@
 #import <objc/runtime.h>
 #import "UITextView+Placeholder.h"
 
+static const void *kTextViewInputLimitMaxLength = &kTextViewInputLimitMaxLength;
+
 @implementation UITextView (Placeholder)
 
 #pragma mark - Swizzle Dealloc
