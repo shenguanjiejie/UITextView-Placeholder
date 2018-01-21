@@ -51,7 +51,6 @@ static const void *kTextViewInputLimitMaxLength = &kTextViewInputLimitMaxLength;
     [self swizzledDealloc];
 }
 
-
 #pragma mark - Class Methods
 #pragma mark `defaultPlaceholderColor`
 
@@ -66,9 +65,7 @@ static const void *kTextViewInputLimitMaxLength = &kTextViewInputLimitMaxLength;
     return color;
 }
 
-
 #pragma mark - `observingKeys`
-
 + (NSArray *)observingKeys {
     return @[@"attributedText",
              @"bounds",
@@ -79,9 +76,7 @@ static const void *kTextViewInputLimitMaxLength = &kTextViewInputLimitMaxLength;
              @"textContainerInset"];
 }
 
-
 #pragma mark - Properties
-
 
 - (NSInteger)textViewMaxLength {
     return [objc_getAssociatedObject(self, kTextViewInputLimitMaxLength) integerValue];
