@@ -27,6 +27,7 @@ FOUNDATION_EXPORT const unsigned char UITextView_PlaceholderVersionString[];
 
 @interface UITextView (Placeholder)
 
+@property (assign, nonatomic)  NSInteger textViewMaxLength;//if <=0, no limit
 @property (nonatomic, readonly) UILabel *placeholderLabel;
 
 @property (nonatomic, strong) IBInspectable NSString *placeholder;
