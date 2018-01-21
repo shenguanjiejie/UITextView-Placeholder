@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "A missing placeholder for UITextView."
   s.homepage     = "https://github.com/devxoul/UITextView-Placeholder"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { "devxoul" => "devxoul@gmail.com" }
+  s.author       = { "shenguanjiejie" => "835166018@qq.com" }
   s.source       = { :git => "https://github.com/shenguanjiejie/UITextView-Placeholder",
                      :tag => "#{s.version}" }
   s.platform     = :ios, '6.0'
