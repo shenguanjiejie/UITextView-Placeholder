@@ -13,7 +13,7 @@ Installation
 Use [CocoaPods](http://cocoapods.org).
 
 ```ruby
-pod 'UITextView+Placeholder', '~> 1.2'
+pod 'UITextView+Placeholder'
 ```
 
 
